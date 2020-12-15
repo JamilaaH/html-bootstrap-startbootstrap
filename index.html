@@ -1,13 +1,43 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./public/css/app.css">
     <title>start bootstrap</title>
 </head>
+
 <body>
-    
+    <!--header  -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand ml-5" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-flex justify-content-around" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item text-uppercase">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item text-uppercase">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+        <!-- jumbotron -->
+        <div class="jumbotron jumbotron-fluid  bg-dark text-white text-center">
+            <div class="container">
+                <h1 class="display-4 font-weight-bolder">One page wonder</h1>
+                <p class="lead font-weight-bolder">will rock your sockss off</p>
+                <button type="button" class="btn btn-candy">Primary</button>
+            </div>
+        </div>
+    </header>
 
 
 
@@ -18,11 +48,12 @@
 
 
 
-    
+
     <!-- SCRIPT BOOTSTRAP -->
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
     <!-- JQUERY -->
     <script src="./node_modules/jquery/dist/jquery.js"></script>
 </body>
+
 </html>
